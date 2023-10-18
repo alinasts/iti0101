@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A little bit about me</title>
+<style>
+body {
+  background-image: url('https://img.freepik.com/free-vector/gray-curve-frame-template-vector_53876-154036.jpg?w=1800&t=st=1697625923~exp=1697626523~hmac=f4bb9a6a164ceba00556346ff92e50f04f78c2d1ac2240e541ff6457b5af08d6');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container {
+  display: inline-block;
+}
+.button {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #D8BFD8;
+  padding: 12px 14px;
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+}
+.link {
+  position: absolute;
+  font-size: 18px;
+  left: 15px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color:#FFFFFF;
+}
+th, td {
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div>
+    <h1>A little bit about me</h1>
+    <p style="font-size: 18px">Hello world! This is my first try of making a webpage using HTML. I guess this webpage doesn't look good but it's just a test.</p>
+  </div>
+  <div>
+    <h2>Colors I like</h2>
+    <table>
+      <caption>Colors with HEX codes</caption>
+      <tr>
+        <th>Color</th>
+        <th>HEX</th>
+      </tr>
+      <tr>
+        <td style="background-color:#D8BFD8">Thistle</td>
+        <td>#D8BFD8</td>
+      </tr>
+      <tr>
+        <td style="background-color:#B0C4DE">LightSteelBlue</td>
+        <td>#B0C4DE</td>
+      </tr>
+      <tr>
+        <td style="background-color:#E6E6FA">Lavender</td>
+        <td>#E6E6FA</td>
+      </tr>
+      <tr>
+        <td style="background-color:#8B0000">DarkRed</td>
+        <td>#8B0000</td>
+      </tr>
+      <tr>
+        <td style="background-color:#6495ED">CornflowerBlue</td>
+        <td>#6495ED</td>
+      </tr>
+    </table>
+  <div>
+    <h2>One of my favourite animals</h2>
+    <p style="font-size: 18px">Fennec</p>
+    <img src="https://www.pbs.org/wnet/nature/files/2022/12/pexels-zetong-li-10186375-1-scaled.jpg" alt="Fennec" style="width:770px;
+    aspect-ratio:auto 1540 / 866;
+    height:433px;">
+  </div>
+  <div>
+    <h2>My MBTI type</h2>
+    <p style="font-size: 18px;">INTP</p>
+    <img src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/11/21/760256800.jpg" alt="INTP" style="width:750px;height:500px;">
+    <br><br>
+  </div>
+  <div>
+    <button onclick="studentcode()" class="button" id="studentcode">Show student's code</button>
+    <br><br><br>
+  </div>
+  <div>
+    <a href="https://taltech.ee/" class="link" target="_blank">TalTech website</a>
+    <br><br>
+  </div>
+</div>
+
+<script>
+function studentcode() {
+    document.getElementById("studentcode").innerHTML = "232700IADB";
+}
+</script>
+
+</body>
+</html>
